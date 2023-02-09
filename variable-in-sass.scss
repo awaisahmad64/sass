@@ -1,0 +1,31 @@
+/*Waiting:Your code should have a Sass variable declared for $text-color with a value of red.
+Waiting:Your code should use the $text-color variable to change the color for the .blog-post and h2 items.
+Waiting:Your .blog-post element should have a color of red.
+Waiting:Your h2 elements should have a color of red.
+
+<style type='text/scss'>*/
+$text-color:red;
+
+  .header{
+    text-align: center;
+  }
+  .blog-post, h2 {
+    color: $text-color;
+  }
+  /*
+</style>
+
+<h1 class="header">Learn Sass</h1>
+<div class="blog-post">
+  <h2>Some random title</h2>
+  <p>This is a paragraph with some random text in it</p>
+</div>
+<div class="blog-post">
+  <h2>Header #2</h2>
+  <p>Here is some more random text.</p>
+</div>
+<div class="blog-post">
+  <h2>Here is another header</h2>
+  <p>Even more random text within a paragraph</p>
+</div>
+*?
